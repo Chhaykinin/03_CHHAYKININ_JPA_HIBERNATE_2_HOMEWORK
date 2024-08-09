@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: demoEntity
+  datasource:
+    url: jdbc:postgresql://localhost:5432/book_db
+    username: postgres
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8085
